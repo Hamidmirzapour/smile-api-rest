@@ -1,1 +1,1 @@
-# smileapi-rest
+# smile-api-rest
