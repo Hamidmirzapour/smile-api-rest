@@ -21,7 +21,7 @@
 
 {
     "name": "Smile API Rest",
-    "version": "17.0.1.1",
+    "version": "17.0.1.2",
     "sequence": 100,
     "category": "Tools",
     "author": "Smile, Hamid Mirzapour",
