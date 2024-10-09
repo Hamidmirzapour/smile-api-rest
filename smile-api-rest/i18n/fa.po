@@ -1,0 +1,723 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* smile_api_rest
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-09 18:20+0000\n"
+"PO-Revision-Date: 2024-10-09 18:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (کپی)"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "(Maximum: {})"
+msgstr "(حداکثر: {})"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_version.py:0
+#, python-format
+msgid "<b>Others API available: </b>"
+msgstr "<b>دیگر API موجود: </b>"
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_form
+msgid ""
+"<span class=\"o_stat_text\">\n"
+"                                    Go to <br/>API Docs</span>"
+msgstr "<span class=\"o_stat_text\">\n به <br/>API Docs</span> بروید"
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_form
+msgid "API Informations"
+msgstr "اطلاعات API"
+
+#. module: smile_api_rest
+#: model:ir.module.category,name:smile_api_rest.api_rest_category
+#: model:ir.ui.menu,name:smile_api_rest.menu_api_rest
+msgid "API REST"
+msgstr ""
+
+#. module: smile_api_rest
+#: model:res.groups,name:smile_api_rest.configuration_manager
+msgid "API REST manager"
+msgstr "مدیر API REST"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__version_id
+msgid "API Version"
+msgstr "نسخه API"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__active
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__active
+msgid "Active"
+msgstr "فعال"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__active_log
+msgid "Active Log"
+msgstr "گزارش فعال"
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+msgid "Add domain to filter result, example: [('name', '=', 'Test')]"
+msgstr "افزودن دامنه به نتیجه فیلتر، به عنوان مثال: [('name', '=', 'Test')]"
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+msgid "Additional Information"
+msgstr "اطلاعات اضافی"
+
+#. module: smile_api_rest
+#: model:ir.model,name:smile_api_rest.model_api_rest_field
+msgid "Api Rest Field"
+msgstr "فیلد Rest Api"
+
+#. module: smile_api_rest
+#: model:ir.model,name:smile_api_rest.model_api_rest_function_parameter
+msgid "Api Rest Function Parameter"
+msgstr "پارامتر تابع Rest Api"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_res_users__api_rest_key
+msgid "Api Rest Key"
+msgstr "کلید Rest Api"
+
+#. module: smile_api_rest
+#: model:ir.model,name:smile_api_rest.model_api_rest_log
+msgid "Api Rest Log"
+msgstr "لاگ Rest Api"
+
+#. module: smile_api_rest
+#: model:ir.model,name:smile_api_rest.model_api_rest_path
+msgid "Api Rest Path"
+msgstr "مسیر Rest Api"
+
+#. module: smile_api_rest
+#: model:ir.model,name:smile_api_rest.model_api_rest_tag
+msgid "Api Rest Tag"
+msgstr "تگ Rest Api"
+
+#. module: smile_api_rest
+#: model:ir.model,name:smile_api_rest.model_api_rest_version
+msgid "Api Rest Version"
+msgstr "نسخه Rest Api"
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_function_parameter__type__array
+msgid "Array"
+msgstr "آرایه"
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_function_parameter__type__boolean
+msgid "Boolean"
+msgstr "بولین"
+
+#. module: smile_api_rest
+#: model:ir.ui.menu,name:smile_api_rest.menu_api_rest_configuration
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_path__method__post
+msgid "Create"
+msgstr "ایجاد کنید"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__create_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__create_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__create_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__create_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__create_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__create_uid
+msgid "Created by"
+msgstr "ایجاد شده توسط"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__create_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__create_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__create_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__create_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__create_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__create_date
+msgid "Created on"
+msgstr "ایجاد در"
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_path__method__custom
+msgid "Custom function"
+msgstr "عملکرد سفارشی"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__default_value
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__default_value
+msgid "Default Value"
+msgstr "مقدار پیش فرض"
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_path__method__delete
+msgid "Delete"
+msgstr "حذف"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__deprecated
+msgid "Deprecated"
+msgstr "منسوخ شده"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__description
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__description
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__description
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__description
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__description
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+msgid "Description"
+msgstr "شرح"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Description of the error"
+msgstr "شرح خطا"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__summary_response_data
+msgid "Details"
+msgstr "جزئیات"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__display_name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__display_name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__display_name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__display_name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__display_name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__display_name
+msgid "Display Name"
+msgstr "نمایش نام"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Error code"
+msgstr "کد خطا"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Example : `[1, 'Example']`"
+msgstr "مثال: «[1، «مثال»]»."
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Example: `YYYY-MM-DD HH:MM:SS`"
+msgstr "مثال: «YYYY-MM-DD HH:MM:SS»."
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Example: `YYYY-MM-DD`"
+msgstr "مثال: «YYYY-MM-DD»."
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Example: `['id', 'name']`"
+msgstr "مثال: «['id', 'name']»."
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Example: `[('name', '=', 'Test')]`"
+msgstr "مثال: «[('name', '=', 'Test')]»."
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Example: `{\"lang\": \"fr_FR\"}`"
+msgstr "مثال: `{\"lang\": \"fr_FR\"}`"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Example: {}"
+msgstr "مثال: {}"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__field_id
+msgid "Field"
+msgstr "فیلد"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__field_name
+msgid "Field Name"
+msgstr "نام فیلد"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__api_field_ids
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__field_ids
+msgid "Fields"
+msgstr "فیلدها"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__file_response_data
+msgid "File Response Data"
+msgstr "داده های پاسخ فایل"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__filename_response_data
+msgid "Filename Response Data"
+msgstr "داده های پاسخ نام فایل"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__filter_domain
+msgid "Filter Domain"
+msgstr "دامنه فیلتر"
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_function_parameter__type__float
+msgid "Float"
+msgstr "شناور"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__function
+msgid "Function"
+msgstr "تابع"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__function_apply_on_record
+msgid "Function Apply On Record"
+msgstr "تابع اعمال بر روی رکورد"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__function_domain
+msgid "Function Domain"
+msgstr "دامنه تابع"
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_form
+msgid "Generate API Key"
+msgstr "کلید API ایجاد کنید"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__id
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__id
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__id
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__id
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__id
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__id
+msgid "ID"
+msgstr "شناسه"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Identifier of the resource created."
+msgstr "شناسه منبع ایجاد شده."
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_form
+msgid "Inactive"
+msgstr "غیرفعال"
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_function_parameter__type__integer
+msgid "Integer"
+msgstr "عدد صحیح"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__write_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__write_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__write_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__write_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__write_uid
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__write_uid
+msgid "Last Updated by"
+msgstr "آخرین به روز رسانی توسط"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__write_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__write_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__write_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__write_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__write_date
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__write_date
+msgid "Last Updated on"
+msgstr "آخرین به روز رسانی در"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__last_usage_date
+msgid "Last Usage Date"
+msgstr "آخرین تاریخ استفاده"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__length_response_data
+msgid "Length Response Data"
+msgstr "طول داده های پاسخ"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__limit
+msgid "Limit of results"
+msgstr "حد نتایج"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "List of fields to read. (Defaults to all fields)"
+msgstr "لیست فیلدهایی که باید بخوانید. "
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_log_form
+msgid "Log"
+msgstr "ورود"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__log_ids
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_log_tree
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_form
+msgid "Logs"
+msgstr "لاگ ها"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Maximum number of records to return. {}"
+msgstr "حداکثر تعداد رکورد برای بازگشت. "
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__method
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+msgid "Method"
+msgstr "روش"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__model_id
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__model
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__model_id
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_search
+msgid "Model"
+msgstr "مدل"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__name
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_tag__name
+msgid "Name"
+msgstr "نام"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Name of error"
+msgstr "نام خطا"
+
+#. module: smile_api_rest
+#: model:ir.model.constraint,message:smile_api_rest.constraint_api_rest_path_name_uniq
+msgid "Name, Version, Method must be unique!"
+msgstr "نام، نسخه، روش باید منحصر به فرد باشد!"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__name
+msgid "Number Version"
+msgstr "شماره نسخه"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Number of records to skip. (Defaults to 0)"
+msgstr "تعداد رکوردهایی که باید رد شوند. "
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_function_parameter__type__object
+msgid "Object (Dictionnary)"
+msgstr "شی (لغت نامه)"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid ""
+"Param to sort result. (Defaults to no sort) \n"
+" Field name followed by the sort operator. (asc or desc)"
+msgstr "پارام برای مرتب کردن نتیجه. "
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__function_parameter_ids
+msgid "Parameters"
+msgstr "پارامترها"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__path_id
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__path_id
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+msgid "Path"
+msgstr "مسیر"
+
+#. module: smile_api_rest
+#: model:ir.actions.act_window,name:smile_api_rest.action_api_rest_path
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__path_ids
+#: model:ir.ui.menu,name:smile_api_rest.menu_action_api_rest_path
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_search
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_tree
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_form
+msgid "Paths"
+msgstr "مسیرها"
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+msgid ""
+"Please note, some required fields have not been added to the list of fields,"
+" creating or updating may not work."
+msgstr "لطفاً توجه داشته باشید، برخی از فیلدهای الزامی به لیست فیلدها اضافه نشده اند، ایجاد یا به روز رسانی ممکن است کارساز نباشد."
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_path__method__get
+msgid "Read"
+msgstr "خواندن"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/controllers/api.py:0
+#: code:addons/smile_api_rest/controllers/api.py:0
+#: code:addons/smile_api_rest/controllers/api.py:0
+#: code:addons/smile_api_rest/controllers/api.py:0
+#, python-format
+msgid "Record not found"
+msgstr "رکورد پیدا نشد"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__request_data
+msgid "Request Data"
+msgstr "درخواست داده"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__request_headers
+msgid "Request Headers"
+msgstr "سرصفحه درخواست"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__request_url
+msgid "Request Url"
+msgstr "درخواست آدرس اینترنتی"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__force_required
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__required
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__required
+msgid "Required"
+msgstr "لازم است"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/tools/http.py:0
+#: code:addons/smile_api_rest/tools/http.py:0
+#, python-format
+msgid "Resource not found or unavailable"
+msgstr "منبع یافت نشد یا در دسترس نیست"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__response_data
+msgid "Response Data"
+msgstr "داده های پاسخ"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Return a boolean if delete is a success."
+msgstr "اگر حذف موفقیت آمیز بود، یک Boolean را برگردانید."
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Return a boolean if update is a success."
+msgstr "در صورت موفقیت آمیز بودن به روز رسانی، یک Boolean را برگردانید."
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid ""
+"Return list with 2 element, first ID of ressource (integer), second Name of "
+"ressource (string)."
+msgstr "لیست بازگشتی با 2 عنصر، شناسه اول منبع (عدد صحیح)، دوم نام منبع (رشته)."
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid ""
+"Search domain to read. (Defaults to an empty domain that will match all "
+"records) <a "
+"href=\"https://www.odoo.com/documentation/15.0/fr/developer/reference/addons/orm.html#reference-"
+"orm-domains\" target=\"_blank\">Documentation</a>"
+msgstr "برای خواندن دامنه را جستجو کنید. "
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_form
+msgid "Security"
+msgstr "امنیت"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_field__sequence
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__sequence
+msgid "Sequence"
+msgstr "دنباله"
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+msgid "Settings for create/update"
+msgstr "تنظیمات برای ایجاد کردن / بروزرسانی"
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+msgid "Settings for custom function"
+msgstr "تنظیمات برای تابع شخصی سازی شده"
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+msgid "Settings for read"
+msgstr "تنظیمات برای خواندن"
+
+#. module: smile_api_rest
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_form
+msgid "Settings for unlink"
+msgstr " کردنتنظیمان برای حذف"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "Specific context to method"
+msgstr ""
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_function_parameter__type__string
+msgid "String"
+msgstr ""
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__tag_id
+msgid "Tag"
+msgstr "برچسب"
+
+#. module: smile_api_rest
+#: model:ir.actions.act_window,name:smile_api_rest.action_api_rest_tag
+#: model:ir.ui.menu,name:smile_api_rest.menu_action_api_rest_tag
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_tag_tree
+msgid "Tags"
+msgstr "برچسب ها"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_function_parameter__type
+msgid "Type"
+msgstr "نوع"
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/tools/http.py:0
+#, python-format
+msgid "Unauthenticated user"
+msgstr ""
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/tools/http.py:0
+#, python-format
+msgid "Unauthorized access"
+msgstr ""
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__unlink_domain
+msgid "Unlink Domain"
+msgstr "حذف کردن دامنه"
+
+#. module: smile_api_rest
+#: model:ir.model.fields.selection,name:smile_api_rest.selection__api_rest_path__method__put
+msgid "Update"
+msgstr "بروزرسانی"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__update_domain
+msgid "Update Domain"
+msgstr "بروزرسانی دامنه"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__url_api_docs
+msgid "Url Api Docs"
+msgstr ""
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__url_swagger
+msgid "Url Swagger"
+msgstr ""
+
+#. module: smile_api_rest
+#: model:ir.model,name:smile_api_rest.model_res_users
+msgid "User"
+msgstr "کاربر"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_version__user_ids
+msgid "Users"
+msgstr "کاربران"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_log__version_id
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_path_search
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_form
+msgid "Version"
+msgstr "نسخه"
+
+#. module: smile_api_rest
+#: model:ir.actions.act_window,name:smile_api_rest.action_api_rest_version
+#: model:ir.ui.menu,name:smile_api_rest.menu_action_api_rest_version
+#: model_terms:ir.ui.view,arch_db:smile_api_rest.view_api_rest_version_tree
+msgid "Versions"
+msgstr "نسخه ها"
+
+#. module: smile_api_rest
+#: model:ir.model.fields,field_description:smile_api_rest.field_api_rest_path__warning_required
+msgid "Warning Required"
+msgstr ""
+
+#. module: smile_api_rest
+#. odoo-python
+#: code:addons/smile_api_rest/models/api_rest_path.py:0
+#, python-format
+msgid "or"
+msgstr "یا"
+
